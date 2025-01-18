@@ -1,0 +1,32 @@
+body,html{
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-color: rgba(0, 0, 0, 0.249); */
+    display: flex;
+    flex-direction: row;
+    /* color: white; */
+}
+.navbar{
+    /* flex gi slaga vuv kolona */
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+}
+/* premahva krygcheto na input */
+.navbar input[type="radio"]{ 
+     display: none;
+}
+.navbar label{
+    padding: 10px;
+    background-color: grey;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.navbar label:hover{
+    background-color: rgba(14, 12, 12, 0.392);
+}
