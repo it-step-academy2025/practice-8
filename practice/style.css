@@ -1,0 +1,29 @@
+body{
+    text-wrap:break-word;
+    font-size: 18px;
+}.main-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color:rgba(0, 0, 0, 0.636);
+    display: none;
+    z-index: 999;
+}
+.main-modal:target{
+display: block;
+}
+.modal{
+    align-items: center;
+    /* justify-content: center; */
+    
+    display: flex;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+    /* transform: translate(-50% -50%); */
+}
